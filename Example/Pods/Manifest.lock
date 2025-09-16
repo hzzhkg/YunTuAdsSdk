@@ -1,0 +1,16 @@
+PODS:
+  - YunTuAdsSdk (0.1.0)
+
+DEPENDENCIES:
+  - YunTuAdsSdk (from `../`)
+
+EXTERNAL SOURCES:
+  YunTuAdsSdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YunTuAdsSdk: 60261f88b1f5951201cd3f8e71d8751bce9e3b47
+
+PODFILE CHECKSUM: 48a8c54e33a007dcd0336ea83985c598dec31ab3
+
+COCOAPODS: 1.16.2

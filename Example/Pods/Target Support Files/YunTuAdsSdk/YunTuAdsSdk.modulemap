@@ -1,0 +1,6 @@
+framework module YunTuAdsSdk {
+  umbrella header "YunTuAdsSdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

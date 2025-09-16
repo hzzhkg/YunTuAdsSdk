@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'YunTuAdsSdk_Example' do
+  pod 'YunTuAdsSdk', :path => '../'
+
+  target 'YunTuAdsSdk_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
