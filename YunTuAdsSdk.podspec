@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YunTuAdsSdk'
-  s.version          = '2.1.1'
+  s.version          = '2.1.2'
   s.summary          = 'YunTu iOS sdk'
 
 # This description is used to generate tags and improve search results.
@@ -37,10 +37,11 @@ TODO: Add long description of the pod here.
   
    s.frameworks = "Foundation","UIKit","MobileCoreServices","CoreGraphics","Security","SystemConfiguration","CoreTelephony","AdSupport","CoreData","StoreKit","AVFoundation","MediaPlayer","CoreMedia","WebKit","Accelerate","CoreLocation","AVKit","MessageUI","QuickLook","AudioToolBox","JavaScriptCore","CoreMotion","Photos"
   s.libraries = "z","resolv.9","sqlite3","c++","c++abi"
-  s.dependency 'ToBid-iOS/GDTAdapter','4.6.80'
-  s.dependency 'ToBid-iOS/BaiduAdapter','4.6.80'
-  s.dependency 'ToBid-iOS/KSAdapter','4.6.80'
-  s.dependency 'ToBid-iOS/TouTiaoAdapter','4.6.80'
-  s.dependency 'ToBid-iOS/CSJMediationAdapter','4.6.80'
+  s.dependency 'ToBid-iOS/GDTAdapter','4.6.82'
+  s.dependency 'ToBid-iOS/BaiduAdapter','4.6.82'
+  s.dependency 'ToBid-iOS/KSAdapter','4.6.82'
+  s.dependency 'ToBid-iOS/TouTiaoAdapter','4.6.82'
+  s.dependency 'ToBid-iOS/CSJMediationAdapter','4.6.82'
+  s.dependency 'ToBid-iOS/MSAdAdapter','4.6.82'
   s.static_framework = true
 end
